@@ -13,27 +13,4 @@ git clone https://github.com/yourusername/Python_Birthday_Wisher.git
 Navigate to the Project Directory:
 
 cd Python_Birthday_Wisher
-Install Dependencies:
-Make sure you have pandas installed:
-
-pip install pandas
-Configuration
-Set Up Email Credentials:
-Update the GMAILID and GPASS variables in the script with your Gmail address and app password.
-
-Update the File Path:
-Ensure data.xlsx is located at the specified path: C:\Users\kales\OneDrive\Desktop\B'day wisher.
-
-Prepare Your Excel File:
-
-Format: Must include columns Birthday, Email, Name, Dialogue, and Year.
-Birthday Column: Dates should be in datetime format.
-Usage
-Run the Script:
-
-python main.py
-Script Operation:
-
-Reads data.xlsx to check for today’s birthdays.
-Sends a birthday email if today matches the contact’s birthday and the year is not yet recorded.
-Updates the Excel file to include the current year.
+Install Dependencie
